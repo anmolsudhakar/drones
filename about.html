@@ -21,6 +21,10 @@
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
         rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css"
+    integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
 
@@ -139,153 +143,129 @@
         .fontcolortexture{
             text-decoration-color: #ff7200;
         }
+        .headerclass{
+text-align: center;
+        }
     </style>
 </head>
 
 <body>
     <div class="header">
         <header>
-            <h1>About US</h1>
+            <h1 class="fontstyle header"> <a class="navbar-brand fontstyle oceanblue" id="navbartitle"
+                    href="https://falcorobotics.in/" target="_blank">FalcoRobotics.PVT.LTD</a></h1>
         </header>
+    
     </div>
     <div class="fixed-bottom icons whatsappclass"><a href="#">
             <ion-icon ios="logo-whatsapp" md="logo-whatsapp"></ion-icon>
         </a></div>
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark sticky-top">
-        <div class="container">
-
-            <a class="navbar-brand fontstyle oceanblue" id="navbartitle" href="#home" target="_blank">Falco ROBOTICS
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Drones
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                                <div class="btn-group dropright">
-                                    <button type="button" class="btn btn-secondary dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Agricultural Drones
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    </div>
-                                </div>
-                                <div class="btn-group dropright">
-                                    <button type="button" class="btn btn-secondary">
-                                        <a class="dropdown-item" href="#">Quadcopter</a>
-                                    </button>
-                                    <button type="button" class="btn btn-secondary">
-                                        <a class="dropdown-item" href="#">Hexacopter</a>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark sticky-top">
+            <div class="container-fluid padder">
+    
+                <a class="navbar-brand fontstyle oceanblue" id="navbartitle" href="#home" target="_blank">Falco Drone
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Drones
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Agricultural Drones</a></li>
+                                <li><a class="dropdown-item" href="#">Carrier Drones</a></li>
+                                <li><a class="dropdown-item" href="#">Camera Drones</a></li>
+                            </ul>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="categories.html" data-toggle="dropdown"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Batteries Chargers & Parts</a></li>
+                                <li><a class="dropdown-item" href="#">Multirotors and Parts</a></li>
+                                <li><a class="dropdown-item" href="#">Servos and parts</a></li>
+                                <li><a class="dropdown-item" href="#">Phantom Battery</a></li>
+                                <li><a class="dropdown-item" href="#">Hardware and Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Radios and Parts </a></li>
+                                <li><a class="dropdown-item" href="#">Electronic Speed Control(ESC)</a></li>
+                                <li><a class="dropdown-item" href="#">Propellers</a></li>
+                                <li><a class="dropdown-item" href="#">Brushless Motors</a></li>
+                                <li><a class="dropdown-item" href="#">Boats and Parts</a></li>
+                                <li><a class="dropdown-item" href="#">Camera Fpv and video systems</a></li>
+                                <li><a class="dropdown-item" href="#">Nitro and parts</a></li>
+                                <li><a class="dropdown-item" href="#">Electronics and arudino</a></li>
+                                <li><a class="dropdown-item" href="#">Miscellaneous</a></li>
+                                <li><a class="dropdown-item" href="#">Planes and Parts</a></li>
+                                <li><a class="dropdown-item" href="#">Used Items</a></li>
+                                <li><a class="dropdown-item" href="#">Gifts and Toys section</a></li>
+                                <!-- <li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 <hr class="dropdown-divider">
-                            </li>
-                            <li>
-                                <div class="btn-group dropright">
-                                    <button type="button" class="btn btn-secondary dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Racer Drones
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    </div>
-                                </div>
-                                <div class="btn-group dropright">
-                                    <button type="button" class="btn btn-secondary">
-                                        <a class="dropdown-item" href="#">Quadcopter</a>
-                                    </button>
-                                    <button type="button" class="btn btn-secondary">
-                                        <a class="dropdown-item" href="#">Hexacopter</a>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    </div>
-                                </div>
-                            </li>
-
-                    </li>
-
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-
-                    <li>
-                        <div class="btn-group dropright">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Delivery Drones
-                            </button>
-                            <div class="dropdown-menu">
-                            </div>
-                        </div>
-                        <div class="btn-group dropright">
-                            <button type="button" class="btn btn-secondary">
-                                <a class="dropdown-item" href="#">Quadcopter</a>
-                            </button>
-                            <button type="button" class="btn btn-secondary">
-                                <a class="dropdown-item" href="#">Hexacopter</a>
-                            </button>
-                            <div class="dropdown-menu">
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="battery.html">Battery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Us</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
-
-                </ul>
-                <div class="slogan">
-                    <h5 class="fontstyle ">
-                        Your Intent We Invent
-                    </h5>
+                            </li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"><i class="bi bi-file-earmark-person-fill"></i>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"><i class="bi bi-person-lines-fill"></i>Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shopping_cart/checkouts.php"><i class="bi bi-cart3"></i>Checkout</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="logout.php"><i class="bi bi-box-arrow-left"></i>Login</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.php"><i class="bi bi-box-arrow-in-right"></i>Logout</a>
+                        </li>
+    
+    
+    
+                    </ul>
+                    <div class="slogan">
+                        <h5 class="fontstyle ">
+                            Your Intent We Invent
+                        </h5>
+                    </div>
+    
+                    <div class="order-lg-10 nav-btns">
+                        <button type="button" class="btn-lg position-relative bg-dark">
+                            <a href="shopping_cart/cart.php"> <i class="bi bi-cart-fill"
+                                    style="font-size: 2rem; color: rgb(255, 73, 57);"></i></a>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge bg-primary style: z-index: -10">5</span>
+                        </button>
+    
+                        <!-- <button type="button" class="btn-lg position-relative bg-dark style: z-index: -1">
+                            <a href="#">  <i class="bi bi-arrow-through-heart"></i></a>
+                            <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                        </button> -->
+                    </div>
+    
                 </div>
-
-                <div class="order-lg-10 nav-btns">
-                    <button type="button" class="btn position-relative">
-                        <i class="fa-light fa-shopping-cart"></i>
-                        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
-                    </button>
-                    <button type="button" class="btn position-relative">
-                        <i class="fa-light fa-heart"></i>
-                        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
-                    </button>
-                    <button type="button" class="btn position-relative">
-                        <i class="fa-light fa-search"></i>
-                    </button>
-                </div>
-
             </div>
-        </div>
-
-    </nav>
-
-
+    
+        </nav>
+<div class="headerclass">
+    <h3>
+        About US
+    </h3>
+</div>
     <div class="container">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fugit molestias cum dolores officia
@@ -301,7 +281,7 @@
     <div class="container">
         <div class="card" style="width: 20rem;">
             <div class="card-body">
-                <i class=" fa fa-regular fa-book"></i>
+                <i class="bi bi-book-fill" style="font-size: 2rem; color: rgb(255, 255, 255);"></i>
                 <h3 class="card-title">Journey</h3>
                 <p class="card-text">Our Story began in 2019. Back then we were a group of engineers that were giving
                     consultancy regarding Robotics and Drone.<br>
@@ -314,7 +294,7 @@
         </div>
         <div class="card" style="width: 20rem;">
             <div class="card-body">
-                <ion-icon name="globe-outline"></ion-icon>
+                <i class="bi bi-globe" style="font-size: 2rem; color: rgb(255, 255, 255);"> </i>
                 <h3 class="card-title">Vision</h3>
                 <p class="card-text">1. Training of Drones in Indian Army (13 Mahar Regt, 8 Mahar Jaipur, 235 Engineers
                     Regt. )
@@ -327,7 +307,7 @@
         </div>
         <div class="card" style="width: 20rem;">
             <div class="card-body">
-                <ion-icon name="bookmarks-outline"></ion-icon>
+                <i class="bi bi-bookmark-fill" style="font-size: 2rem; color: rgb(255, 255, 255);"></i>
                 <h3 class="card-title">Achievements</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
