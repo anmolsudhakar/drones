@@ -142,6 +142,21 @@ session_start();
             width: 15rem;
             height: 7rem;
         }
+        .whatsappclass ion-icon {
+            color: rgb(22, 227, 32);
+            font-size: 3rem;
+            padding-left: 2rem;
+            padding-top: 0.313rem;
+            transition: 0.3s ease;
+        }
+
+        .icons ion-icon:hover {
+            color: #ff7200;
+        }
+
+        .whatsappclass ion-icon:hover {
+            color: #0c3302;
+        }
     </style>
     <title>Falco Drones</title>
 </head>
@@ -215,7 +230,7 @@ session_start();
                         <a class="nav-link" href="#contact"><i class="bi bi-person-lines-fill"></i>Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="checkout.html"><i class="bi bi-cart3"></i>Checkout</a>
+                        <a class="nav-link" href="shopping_cart/checkouts.php"><i class="bi bi-cart3"></i>Checkout</a>
                     </li>
 
                     <li class="nav-item">
@@ -305,33 +320,33 @@ session_start();
             <div class="container aboutcard ">
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <i class=" fa fa-regular fa-book"></i>
+                        <i class="bi bi-fan" style="font-size: 2rem; color: rgb(255, 255, 255);"></i>
                         <h3 class="card-title">Agriculture Drone</h3>
                         <p class="card-text">An agricultural drone is an aerial vehicle used in agriculture operations,
                             mostly in yield optimization and in monitoring crop growth and crop production. </p>
-                        <a href="agriculturedrone.html" class="btn btn-primary">Read More</a>
+                        <a href="drone.html#agriculturedrones" class="btn btn-primary">Read More</a>
                     </div>
 
                 </div>
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <ion-icon ios="ios-plane" md="md-plane" style="font-size: 2rem; color: rgb(255, 255, 255);"></ion-icon>
+                        <i class="bi bi-fan" style="font-size: 2rem; color: rgb(255, 255, 255);"></i>
                         <h3 class="card-title">Camera Drone</h3>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="cameradrone.html" class="btn btn-primary">Read More</a>
+                        <a href="drone.html#cameradrones" class="btn btn-primary">Read More</a>
                     </div>
 
                 </div>
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <ion-icon name="bookmarks-outline"></ion-icon>
+                        <i class="bi bi-fan" style="font-size: 2rem; color: rgb(255, 255, 255);"></i>
                         <h3 class="card-title">Delivery Drone</h3>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="deliverydrone.html" class="btn btn-primary">Read More</a>
+                        <a href="drone.html#deliverydrones" class="btn btn-primary">Read More</a>
                     </div>
 
                 </div>
@@ -382,8 +397,11 @@ session_start();
                 <div class="card-body">
                     <i class="bi bi-book-fill" style="font-size: 2rem; color: rgb(255, 255, 255);"></i>
                     <h3 class="card-title">Journey</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Our Story began in 2019. Back then we were a group of engineers that were giving
+                        consultancy regarding Robotics and Drone.<br>
+                        Today we are privileged to connect with thousands of students with exceptional teaching and more
+                        than 10 schools in 5 different states and manufacturing of customized drones for both civilians and
+                        defence.</p>
                     <a href="about.html#journey" class="btn btn-primary">Read More</a>
                 </div>
 
@@ -392,8 +410,11 @@ session_start();
                 <div class="card-body">
                     <i class="bi bi-globe" style="font-size: 2rem; color: rgb(255, 255, 255);"> </i>
                     <h3 class="card-title">Vision</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">1. Training of Drones in Indian Army (13 Mahar Regt, 8 Mahar Jaipur, 235 Engineers
+                        Regt. )
+                        <br>
+                        2. Making of Customized drones, services.
+                    </p>
                     <a href="about.html#vision" class="btn btn-primary">Read More</a>
                 </div>
 
@@ -413,7 +434,7 @@ session_start();
 
     <section id="contact">
 
-        <h1 class="section-header">Contact</h1>
+        <h1 class="section-header">Contact US</h1>
 
         <div class="contact-wrapper">
 
